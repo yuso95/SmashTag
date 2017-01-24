@@ -8,6 +8,8 @@
 import UIKit
 import CoreData
 
+// Twitter framework is broken because I move it from its original folder
+
 class CoreDataTableViewController: UITableViewController, NSFetchedResultsControllerDelegate
 {
     var fetchedResultsController: NSFetchedResultsController<NSFetchRequestResult>? {
